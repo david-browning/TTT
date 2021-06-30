@@ -1,0 +1,22 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+
+# All files
+[*]
+indent_style = space
+guidelines  = 80
+
+[*.h]
+indent_size = 3
+
+[*.cpp]
+indent_size = 3
+
+# Xml files
+[*.xml]
+[*.xaml]
+indent_size = 2
+
+# MIDL files
+[*.idl]
+indent_size = 3
+indent_style = space

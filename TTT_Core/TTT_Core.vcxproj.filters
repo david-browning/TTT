@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{6449fa0b-5da4-47f2-b734-e002ab3a1c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Net Traits">
+      <UniqueIdentifier>{d3e0331e-4074-490c-8433-49ac9de6fc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{d0f609e5-3ba2-4c19-8f31-1cfb93f55dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player\Input Traits">
+      <UniqueIdentifier>{a92ee0f3-5af3-4f83-9ec2-ee829b54a6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{7ed319bd-e734-4c15-a757-5cfbaa88f453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\platform_abstraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ttt_core_include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dummy_net_traits.h">
+      <Filter>Header Files\Networking\Net Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_op_codes.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\basic_player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_manager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net_traits.h">
+      <Filter>Header Files\Networking\Net Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dummy_input_traits.h">
+      <Filter>Header Files\Player\Input Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\console_input_traits.h">
+      <Filter>Header Files\Player\Input Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ai_input_traits.h">
+      <Filter>Header Files\Player\Input Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\leaderboard.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\play.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\basic_client.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\basic_server.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game_board.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
